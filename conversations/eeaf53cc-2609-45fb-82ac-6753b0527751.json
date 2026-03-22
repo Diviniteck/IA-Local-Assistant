@@ -1,0 +1,18 @@
+{
+    "id": "eeaf53cc-2609-45fb-82ac-6753b0527751",
+    "title": "c'est quoi OnDrawGizmos en Unity ?",
+    "created_at": "2026-03-21T15:28:07",
+    "updated_at": "2026-03-21T15:30:25",
+    "messages": [
+        {
+            "role": "user",
+            "content": "c'est quoi OnDrawGizmos en Unity ?",
+            "timestamp": "2026-03-21T15:28:37"
+        },
+        {
+            "role": "assistant",
+            "content": "\nEn Unity, `OnDrawGizmos()` est une méthode de la classe `MonoBehaviour` qui permet de dessiner des visualisations (gizmos) dans la vue **Scene**.  \n\nElle s'exécute à chaque frame du jeu, quelle que soit l'état de sélection de l'objet (même si l'objet n'est pas sélectionné). Ces gizmos sont utilisés principalement pour des visualisations de débogage ou des aides visuelles dans l'éditeur.\n\n---\n\n### Comment ça fonctionne ?\n\n- **Appel** : La méthode est appelée automatiquement par Unity à chaque frame.\n- **Contexte** : Elle s'exécute dans le contexte de la vue Scene, donc les transformations (position, rotation, échelle) de l'objet sont celles qui s'appliquent aux gizmos dessinés.\n- **Utilisation** : On y utilise généralement `Gizmos` pour dessiner des formes géométriques (cercles, rectangles, lignes, etc.) ou des indicateurs visuels.\n\n---\n\n### Exemple de code simple\n\nVoici un exemple qui dessine un cercle rouge autour de l'objet :\n\n```csharp\nusing UnityEngine;\n\npublic class GizmoCircleExample : MonoBehaviour\n{\n    // Méthode appelée à chaque frame pour dessiner les gizmos\n    void OnDrawGizmos()\n    {\n        // Définit la couleur des gizmos (ici rouge)\n        Gizmos.color = Color.red;\n        \n        // Dessine un cercle de rayon 1 unité autour de la position de l'objet\n        Gizmos.DrawWireSphere(transform.position, 1.0f);\n    }\n}\n```\n\nDans cet exemple :\n- `Gizmos.color` définit la couleur des gizmos.\n- `Gizmos.DrawWireSphere(...)` dessine un cercle en wireframe.\n\n---\n\n### Différence avec `OnDrawGizmosSelected()`\n\nIl existe une autre méthode similaire : **`OnDrawGizmosSelected()`**, qui ne s'exécute que lorsque l'objet est sélectionné dans la vue Scene. Si vous voulez dessiner des gizmos uniquement pour les objets sélectionnés, utilisez cette méthode à la place.\n\n---\n\n### Utilisations courantes\n\n- Visualiser les limites d'un collider (ex: `Gizmos.DrawWireCube()`).\n- Dessiner des rayons de visibilité ou de collision.\n- Afficher des indicateurs de position, rotation ou autre information contextuelle.\n\nEn résumé : `OnDrawGizmos()` est votre outil principal pour dessiner des visualisations dans la vue Scene à chaque frame.",
+            "timestamp": "2026-03-21T15:30:25"
+        }
+    ]
+}

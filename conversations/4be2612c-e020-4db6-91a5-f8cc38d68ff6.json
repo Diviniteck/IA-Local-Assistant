@@ -1,0 +1,28 @@
+{
+    "id": "4be2612c-e020-4db6-91a5-f8cc38d68ff6",
+    "title": "comment est nommé le Player Character de ma SampleScene ?",
+    "created_at": "2026-03-21T00:21:45",
+    "updated_at": "2026-03-21T00:28:13",
+    "messages": [
+        {
+            "role": "user",
+            "content": "comment est nommé le Player Character de ma SampleScene ?",
+            "timestamp": "2026-03-21T00:23:05"
+        },
+        {
+            "role": "assistant",
+            "content": "\nJe vais analyser le contexte fourni pour répondre à votre question.\n\n### Analyse du contexte\n\nLe contexte que vous avez partagé contient :\n- Des informations sur le projet Unity en général (nombre de fichiers, taille)\n- Une liste détaillée des scripts C# et autres assets (prefabs, scènes, textes) dans votre projet\n- Mais **aucune information spécifique** concernant la scène \"SampleScene\" ou son contenu (comme les noms d'objets, y compris le Player Character).\n\n### Réponse\n\nEn examinant tous les fichiers fournis (scripts C#, préfabriques, etc.), il n'y a pas de mention explicite du nom du Player Character dans la scène \"SampleScene\". \n\nPour connaître le nom exact du joueur dans votre scène, vous devez :\n1. Ouvrir Unity et charger votre projet\n2. Aller dans l'onglet **Scène** (Scene view)\n3. Chercher l'objet qui représente votre personnage joueur dans la hiérarchie de la scène (par exemple, un GameObject nommé \"Player\", \"CharacterController\" ou autre)\n\nSi vous avez besoin d'aide pour trouver cet objet spécifique dans Unity, je peux vous guider !",
+            "timestamp": "2026-03-21T00:23:26"
+        },
+        {
+            "role": "user",
+            "content": "je m'appel Mathias",
+            "timestamp": "2026-03-21T00:26:11"
+        },
+        {
+            "role": "assistant",
+            "content": "❌ Erreur : HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=120)\n\nVérifiez la connexion LM Studio.",
+            "timestamp": "2026-03-21T00:28:13"
+        }
+    ]
+}

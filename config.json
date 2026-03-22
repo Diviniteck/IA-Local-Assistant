@@ -1,0 +1,73 @@
+{
+    "lm_studio_url": "http://localhost:1234/v1",
+    "model_name": "zai-org/glm-4.6v-flash",
+    "unity_project_path": "E:/unity hub/ToolTester",
+    "project_name": "Race To The Moon",
+    "max_context_tokens": 35000,
+    "auto_scan_interval": 5,
+    "watch_extensions": [
+        ".cs",
+        ".prefab",
+        ".unity",
+        ".asset",
+        ".asmdef"
+    ],
+    "ignore_folders": [
+        "Library",
+        "Temp",
+        "obj",
+        "Packages",
+        ".git"
+    ],
+    "project_priority_folders": [
+        "Assets/Scripts",
+        "Assets/_Project",
+        "Assets/Scenes",
+        "Assets/Prefabs",
+        "Assets/Resources"
+    ],
+    "third_party_folders": [
+        "Assets/MeshBaker",
+        "Assets/TextMesh Pro",
+        "Assets/Plugins",
+        "Assets/ThirdParty",
+        "Assets/Third Party",
+        "Assets/Samples",
+        "Assets/Examples",
+        "Assets/Tutorials"
+    ],
+    "third_party_keywords": [
+        "meshbaker",
+        "textmeshpro",
+        "tmp",
+        "samples",
+        "examples",
+        "tutorial",
+        "demo"
+    ],
+    "max_priority_scripts": 25,
+    "max_priority_prefabs": 12,
+    "max_priority_scenes": 8,
+    "max_third_party_scripts_manifest": 20,
+    "lm_request_timeout": 240,
+    "max_history_messages_for_model": 4,
+    "max_history_chars_per_message": 1500,
+    "conversations_dir": "Data/conversations",
+    "unity_doc_version": "2022.3.62f2",
+    "unity_docs_root": "Data/unity_docs",
+    "unity_doc_max_results": 3,
+    "unity_doc_max_excerpt_chars": 900,
+    "unity_doc_exact_match_boost": 80,
+    "unity_doc_title_match_boost": 24,
+    "unity_doc_keyword_match_boost": 12,
+    "unity_doc_category_match_boost": 8,
+    "unity_doc_content_match_boost": 2,
+    "lm_temperature": 0.15,
+    "lm_max_tokens": 4096,
+    "lm_api_temperature": 0.1,
+    "lm_guided_temperature": 0.14,
+    "lm_impl_temperature": 0.18,
+    "lm_api_max_tokens": 900,
+    "lm_guided_max_tokens": 1600,
+    "lm_impl_max_tokens": 2600
+}
