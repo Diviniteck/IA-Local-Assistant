@@ -1,0 +1,28 @@
+{
+    "id": "c18b374f-3f79-4525-b68f-00c94d724689",
+    "title": "je m'appel Mathias",
+    "created_at": "2026-03-21T00:28:49",
+    "updated_at": "2026-03-21T00:31:30",
+    "messages": [
+        {
+            "role": "user",
+            "content": "je m'appel Mathias",
+            "timestamp": "2026-03-21T00:28:59"
+        },
+        {
+            "role": "assistant",
+            "content": "\nBonjour Mathias !  \n\nJe suis votre expert en Unity 2022.3.x LTS et développeur C# senior. Je vous aide avec votre projet MeshBaker (275 scripts, 46 prefabs...). Si vous avez une question sur la configuration d'un script, le fonctionnement d'une fonctionnalité ou besoin de code adapté à Unity 2022.3.x, n'hésitez pas à me l'expliquer.  \n\nJe peux aussi vous aider avec des exemples concrets si nécessaire.",
+            "timestamp": "2026-03-21T00:29:31"
+        },
+        {
+            "role": "user",
+            "content": "comment je m'appel ?",
+            "timestamp": "2026-03-21T00:30:04"
+        },
+        {
+            "role": "assistant",
+            "content": "\nBonjour Mathias !  \n\nJe m'appelle l'assistant spécialisé en Unity 2022.3.x LTS et développeur C# senior que vous avez contacté pour votre projet MeshBaker. Je suis ici pour vous aider avec vos questions sur le code, la configuration ou toute autre partie de votre projet.  \n\nSi vous avez une question spécifique (par exemple concernant un script, une fonctionnalité ou un problème technique), n'hésitez pas à me l'expliquer !",
+            "timestamp": "2026-03-21T00:31:30"
+        }
+    ]
+}
